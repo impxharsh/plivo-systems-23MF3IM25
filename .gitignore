@@ -1,0 +1,28 @@
+# --- Compiled Binaries & Build Artifacts ---
+sender
+receiver
+*.o
+*.out
+
+# --- Test Outputs & Performance Logs ---
+playout_log.json
+relay_stats.json
+
+# --- Harness Profiles ---
+profiles/
+
+# --- Python Environment & Caches ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# --- Operating System & IDE Clutter ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
